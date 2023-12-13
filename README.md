@@ -14,7 +14,7 @@ _Se puede tener varias Branches y cada una con varias personas y trabajar todos 
 * _Creamos una branch._
 
 ```ssh
-git branch newbranch
+git checkout -b newbranch
 ```
 
 * _Para pasarnos a esa branch creada:_
@@ -46,7 +46,7 @@ vim ejemplo.html
 * _Lo agregamos:_
 
 ```ssh
-git add -A
+git add ejemplo.html # se puede usar 'git add -A' o 'git add .' si queremos agregar todo.
 ```
 
 * _Agregamos un commit:_
